@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./gradlew -Pgroup=com.github.sinangoo -Pversion=0.0.1 publishToMavenLocal
+
