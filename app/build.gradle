@@ -16,7 +16,7 @@ publishing {
         maven(MavenPublication) {
             groupId projectGroupId
             version projectVersion
-            artifactId projectArtifactId
+            /* artifactId projectArtifactId */
             from components.java
         }
     }
