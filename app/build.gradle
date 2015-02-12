@@ -11,9 +11,7 @@ pmd {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId projectGroupId
-            version projectVersion
-            artifactId projectArtifactId
+            artifactId "foo"
             from components.java
         }
     }
