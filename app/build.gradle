@@ -14,9 +14,7 @@ targetCompatibility = 1.7
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId projectGroupId
             version projectVersion
-            /* artifactId projectArtifactId */
             from components.java
         }
     }
