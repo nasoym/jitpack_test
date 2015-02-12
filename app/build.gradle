@@ -27,6 +27,7 @@ dependencies {
 
 task reportDate << {
     println "execution at: " + new Date()
+    println "version: " + version
 }
 
 allprojects {
